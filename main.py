@@ -22,11 +22,14 @@ def load_dataset(file_path: str) -> pd.DataFrame:
 
 def clean_data(df: pd.DataFrame) -> pd.DataFrame:
     df.rename(columns={'Reveiw Comment': 'Review Comment'}, inplace=True)
-    df['Number of review'] = df['Number of review'].str.replace(',', '').astype(int)
+    df['Number of review'] = pd.to_numeric(df['Number of review'].str.replace(',', ''), errors='coerce')
+    df['Number of review'] = df['Number of review'].fillna(0)
+    df['Number of review'] = df['Number of review'].astype(int)
     df['Online Order'] = df['Online Order'].apply(lambda x: True if x == "Yes" else False)
     df['Catagory'] = df['Catagory'].str.strip()
     logging.info("Dados limpos e padronizados.")
     return df
+
 
 def show_dataset_summary(df: pd.DataFrame) -> None:
     logging.info("Visualizando as primeiras linhas do dataset:")
