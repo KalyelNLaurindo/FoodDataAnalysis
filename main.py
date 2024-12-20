@@ -2,14 +2,16 @@ import sys
 import logging
 import pandas as pd
 import os
+import matplotlib
 import matplotlib.pyplot as plt
 import io
 from concurrent.futures import ThreadPoolExecutor, as_completed
-
 logging.basicConfig(
     level=logging.INFO,
     format='[%(levelname)s] %(message)s'
 )
+
+matplotlib.use('Agg')
 
 DATA_FILE_NAME = "trip advisor restaurents  10k - trip_rest_neywork_1.csv"
 PREVIEW_FILE_NAME = "preview_data.csv"
@@ -67,13 +69,16 @@ def show_dataset_summary(df: pd.DataFrame) -> None:
     df.head(100).to_csv(PREVIEW_FILE_NAME, index=False)
     logging.info(f"Prévia do dataset salva como '{PREVIEW_FILE_NAME}'")
 
+
 def analyze_categories(df: pd.DataFrame) -> None:
     category_counts = df.groupby('Catagory')['Number of review'].sum().sort_values(ascending=False)
     logging.info("Categorias com mais avaliações:")
     print(category_counts.head(10))
     category_counts.head(10).plot(kind='bar', figsize=(10, 6), title='Categorias com mais avaliações', xlabel='Categoria', ylabel='Número de Avaliações')
     plt.tight_layout()
-    plt.show()
+    plt.savefig("categorias_com_mais_avaliacoes.png")
+    plt.close()
+    logging.info("Gráfico salvo: categorias_com_mais_avaliacoes.png")
 
 def analyze_online_orders(df: pd.DataFrame) -> None:
     online_reviews = df.groupby('Online Order')['Number of review'].mean()
@@ -82,7 +87,9 @@ def analyze_online_orders(df: pd.DataFrame) -> None:
     online_reviews.plot(kind='bar', figsize=(8, 6), title='Média de Avaliações por Pedido Online', xlabel='Pedido Online', ylabel='Número Médio de Avaliações')
     plt.xticks([0, 1], labels=["Sem Pedido Online", "Com Pedido Online"], rotation=0)
     plt.tight_layout()
-    plt.show()
+    plt.savefig("media_avaliacoes_pedido_online.png")
+    plt.close()
+    logging.info("Gráfico salvo: media_avaliacoes_pedido_online.png")
 
 def popular_dishes_by_category(df: pd.DataFrame) -> None:
     popular_dishes = df.groupby('Catagory')['Popular food'].apply(lambda x: x.mode().iloc[0] if not x.mode().empty else "Sem dado")
@@ -97,7 +104,9 @@ def top_reviewed_restaurant(df: pd.DataFrame) -> None:
 def review_distribution(df: pd.DataFrame) -> None:
     df['Number of review'].plot(kind='hist', bins=20, figsize=(10, 6), title='Distribuição do Número de Avaliações', xlabel='Número de Avaliações', ylabel='Frequência')
     plt.tight_layout()
-    plt.show()
+    plt.savefig("distribuicao_avaliacoes.png")
+    plt.close()
+    logging.info("Gráfico salvo: distribuicao_avaliacoes.png")
 
 def analyze_category_combinations(df: pd.DataFrame) -> None:
     combined_reviews = df.groupby('Catagory')['Number of review'].sum().sort_values(ascending=False)
@@ -105,9 +114,11 @@ def analyze_category_combinations(df: pd.DataFrame) -> None:
     print(combined_reviews.head(10))
     combined_reviews.head(10).plot(kind='bar', figsize=(10, 6), title='Impacto das Categorias no Volume de Avaliações', xlabel='Categoria', ylabel='Número de Avaliações')
     plt.tight_layout()
-    plt.show()
+    plt.savefig("impacto_categorias.png")
+    plt.close()
+    logging.info("Gráfico salvo: impacto_categorias.png")
 
-def execute_analyses_concurrently(df: pd.DataFrame) -> None:
+def execute_analyses(df: pd.DataFrame) -> None:
     analysis_functions = [
         analyze_categories,
         analyze_online_orders,
@@ -116,13 +127,11 @@ def execute_analyses_concurrently(df: pd.DataFrame) -> None:
         review_distribution,
         analyze_category_combinations
     ]
-    with ThreadPoolExecutor(max_workers=len(analysis_functions)) as executor:
-        futures = [executor.submit(func, df) for func in analysis_functions]
-        for future in as_completed(futures):
-            try:
-                future.result()
-            except Exception as e:
-                logging.error(f"Erro durante a execução de uma análise: {e}")
+    for func in analysis_functions:
+        try:
+            func(df)
+        except Exception as e:
+            logging.error(f"Erro durante a execução de uma análise: {e}")
 
 def main() -> None:
     current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -132,16 +141,12 @@ def main() -> None:
         sys.exit(1)
     try:
         df = load_dataset(file_path)
-    except (FileNotFoundError, DataProcessingError) as e:
-        logging.error(f"Falha ao carregar o dataset: {e}")
-        sys.exit(1)
-    try:
         df = clean_data(df)
-    except DataProcessingError as e:
-        logging.error(f"Falha ao limpar o dataset: {e}")
+    except (FileNotFoundError, DataProcessingError) as e:
+        logging.error(f"Erro no processamento do dataset: {e}")
         sys.exit(1)
     show_dataset_summary(df)
-    execute_analyses_concurrently(df)
+    execute_analyses(df)
 
 if __name__ == "__main__":
     main()
