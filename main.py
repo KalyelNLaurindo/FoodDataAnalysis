@@ -20,6 +20,14 @@ def load_dataset(file_path: str) -> pd.DataFrame:
         logging.error(f"Erro ao processar o arquivo '{file_path}': {e}")
         raise
 
+def clean_data(df: pd.DataFrame) -> pd.DataFrame:
+    df.rename(columns={'Reveiw Comment': 'Review Comment'}, inplace=True)
+    df['Number of review'] = df['Number of review'].str.replace(',', '').astype(int)
+    df['Online Order'] = df['Online Order'].apply(lambda x: True if x == "Yes" else False)
+    df['Catagory'] = df['Catagory'].str.strip()
+    logging.info("Dados limpos e padronizados.")
+    return df
+
 def show_dataset_summary(df: pd.DataFrame) -> None:
     logging.info("Visualizando as primeiras linhas do dataset:")
     print(df.head(), "\n")
@@ -46,7 +54,10 @@ def main():
         df = load_dataset(file_path)
     except (FileNotFoundError, pd.errors.ParserError):
         sys.exit(1)
+    df = clean_data(df)
     show_dataset_summary(df)
+    df.to_csv("cleaned_data.csv", index=False)
+    logging.info("Dataset limpo salvo como 'cleaned_data.csv'.")
 
 if __name__ == "__main__":
     main()
