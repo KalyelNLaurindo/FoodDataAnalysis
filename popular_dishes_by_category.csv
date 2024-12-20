@@ -1,0 +1,561 @@
+Catagory,Popular food
+African,No
+"African, Bar",No
+"African, Ethiopian",No
+"African, International",No
+"African, Mediterranean",No
+"African, Middle Eastern",No
+"African, Moroccan",No
+"African, Nigerian",No
+"African, Wine Bar",No
+American,No
+"American, Asian",No
+"American, Australian",No
+"American, Bar",No
+"American, Barbecue",No
+"American, Brew Pub",No
+"American, British",No
+"American, Cafe",No
+"American, Cajun & Creole",Greek
+"American, Caribbean",No
+"American, Contemporary",No
+"American, Deli",No
+"American, Diner",No
+"American, Dining bars",No
+"American, European",No
+"American, Fast Food",No
+"American, Filipino",No
+"American, French",Mixed Grill
+"American, Fusion",No
+"American, Gastropub",No
+"American, German",No
+"American, Greek",No
+"American, Grill",No
+"American, Healthy",No
+"American, Indian",No
+"American, International",No
+"American, Irish",No
+"American, Israeli",No
+"American, Italian",No
+"American, Japanese",pace
+"American, Latin",No
+"American, Mediterranean",No
+"American, Middle Eastern",No
+"American, Pizza",No
+"American, Pub",No
+"American, Seafood",No
+"American, Soups",No
+"American, Southwestern",Crab Cakes
+"American, Spanish",No
+"American, Steakhouse",No
+"American, Street Food",No
+"American, Sushi",No
+"American, Swiss",fries
+"American, Wine Bar",No
+Arabic,No
+"Argentinean, Brazilian",No
+"Argentinean, South American",No
+Asian,No
+"Asian, American",No
+"Asian, Bar",No
+"Asian, Burmese",ribeye
+"Asian, Cambodian",No
+"Asian, Chinese",No
+"Asian, Contemporary",No
+"Asian, Fusion",No
+"Asian, Healthy",sashimi
+"Asian, Indonesian",No
+"Asian, International",No
+"Asian, Japanese",No
+"Asian, Korean",No
+"Asian, Malaysian",No
+"Asian, Nepali",No
+"Asian, Seafood",No
+"Asian, Singaporean",No
+"Asian, Soups",No
+"Asian, Steakhouse",No
+"Asian, Street Food",dumplings
+"Asian, Sushi",No
+"Asian, Taiwanese",No
+"Asian, Thai",No
+"Asian, Vietnamese",No
+"Asian, Wine Bar",carbonara
+Australian,No
+"Australian, American",No
+"Austrian, Cafe",dumplings
+"Austrian, European",No
+Bar,No
+"Bar, American",No
+"Bar, Asian",No
+"Bar, Barbecue",Huevos rancheros
+"Bar, Brazilian",Crab Cakes
+"Bar, British",Great Mexican Food
+"Bar, Cafe",No
+"Bar, Contemporary",No
+"Bar, Dining bars",No
+"Bar, European",No
+"Bar, Fast Food",No
+"Bar, French",No
+"Bar, Greek",pizza
+"Bar, Grill",carbonara
+"Bar, International",No
+"Bar, Irish",No
+"Bar, Italian",No
+"Bar, Japanese",No
+"Bar, Mediterranean",No
+"Bar, Mexican",Dim Sum
+"Bar, Middle Eastern",steak
+"Bar, Pizza",dumplings
+"Bar, Pub",No
+"Bar, Russian",No
+"Bar, Seafood",No
+"Bar, Soups",No
+"Bar, Spanish",No
+"Bar, Sushi",Garden
+"Bar, Wine Bar",No
+Barbecue,No
+"Barbecue, American",No
+"Barbecue, Asian",No
+"Barbecue, Steakhouse",No
+"Barbecue, Vietnamese",No
+Belgian,No
+"Belgian, Bar",ribeye
+"Belgian, European",No
+"Belgian, Street Food",Tempura
+"Brazilian, Cafe",Crab Cakes
+"Brazilian, Korean",No
+"Brazilian, Latin",No
+"Brazilian, South American",No
+"Brew Pub, Bar",No
+British,No
+"British, Central Asian",Pizza
+Cafe,No
+"Cafe, American",No
+"Cafe, Asian",No
+"Cafe, Australian",Australia
+"Cafe, Bar",No
+"Cafe, Central Asian",No
+"Cafe, Contemporary",ribeye
+"Cafe, Deli",No
+"Cafe, Diner",No
+"Cafe, European",No
+"Cafe, Fast Food",No
+"Cafe, Greek",No
+"Cafe, Healthy",No
+"Cafe, International",No
+"Cafe, Israeli",No
+"Cafe, Italian",No
+"Cafe, Japanese",No
+"Cafe, Latin",No
+"Cafe, Mediterranean",No
+"Cafe, Street Food",No
+"Cafe, Sushi",No
+Cajun & Creole,No
+"Cajun & Creole, Seafood",No
+"Canadian, International",No
+Caribbean,No
+"Caribbean, Asian",No
+"Caribbean, Bar",No
+"Caribbean, Cafe",No
+"Caribbean, Cuban",No
+"Caribbean, Fast Food",No
+"Caribbean, French",No
+"Caribbean, Healthy",No
+"Caribbean, Jamaican",No
+"Caribbean, Latin",No
+"Caribbean, Pub",Dumplings
+"Caribbean, Puerto Rican",No
+"Caribbean, Seafood",No
+"Caribbean, Spanish",No
+"Central American, South American",udon
+"Central Asian, Uzbek",No
+"Chilean, South American",No
+Chinese,No
+"Chinese, American",No
+"Chinese, Asian",No
+"Chinese, Bar",Crab Cakes
+"Chinese, Barbecue",Crab Cakes
+"Chinese, Cafe",No
+"Chinese, Cajun & Creole",No
+"Chinese, Caribbean",No
+"Chinese, Cuban",No
+"Chinese, Fast Food",No
+"Chinese, Japanese",No
+"Chinese, Peruvian",No
+"Chinese, Seafood",No
+"Chinese, Spanish",No
+"Chinese, Steakhouse",No
+"Chinese, Sushi",No
+"Chinese, Thai",No
+"Colombian, Latin",No
+Contemporary,No
+"Contemporary, American",No
+"Contemporary, Bar",No
+"Contemporary, Healthy",No
+"Croatian, Italian",pancakes
+Cuban,seafood paella
+"Cuban, Caribbean",No
+Deli,No
+"Deli, Canadian",No
+"Deli, Diner",No
+"Deli, Grill",No
+"Deli, Israeli",French toast
+"Deli, Vietnamese",No
+Diner,No
+"Diner, American",No
+"Diner, Italian",No
+Eastern European,No
+"Eastern European, Armenian",Steak
+"Eastern European, European",No
+"Eastern European, Georgian",No
+"Eastern European, Israeli",Mediterranean food
+"Emilian, Italian",Pizza
+"Ethiopian, African",No
+European,No
+"European, American",No
+"European, Bar",beers
+"European, Cafe",No
+"European, Central American",Crab Cakes
+"European, Czech",No
+"European, Danish",No
+"European, Eastern European",No
+"European, French",No
+"European, Italian",No
+"European, Mediterranean",No
+"European, Portuguese",vegetarian
+"European, Russian",dumplings
+"European, Soups",sandwiches
+"European, Spanish",No
+"European, Swedish",No
+Fast Food,No
+"Fast Food, American",No
+"Fast Food, Asian",No
+"Fast Food, Barbecue",No
+"Fast Food, Cafe",No
+"Fast Food, Deli",No
+"Fast Food, European",No
+"Fast Food, Mediterranean",No
+"Fast Food, Middle Eastern",No
+"Fast Food, Pizza",No
+"Fast Food, Soups",No
+"Fast Food, Sushi",No
+Filipino,No
+"Filipino, Asian",No
+"Filipino, Mexican",No
+French,No
+"French, African",No
+"French, American",No
+"French, Bar",No
+"French, Cafe",No
+"French, Contemporary",Tiramisu
+"French, European",No
+"French, Fast Food",No
+"French, Grill",No
+"French, International",No
+"French, Japanese",No
+"French, Japanese Fusion",No
+"French, Mediterranean",No
+"French, Pub",No
+"French, Seafood",Baklava
+"French, Steakhouse",chicken piccata
+"French, Swiss",lasagna
+"French, Wine Bar",No
+Fusion,No
+"Fusion, French",No
+"Gastropub, Bar",No
+"Gastropub, Soups",No
+Georgian,No
+German,No
+"German, Austrian",Beef
+"German, Bar",No
+"German, European",asparagus
+"German, Mediterranean",No
+Greek,No
+"Greek, Cafe",No
+"Greek, Mediterranean",No
+"Greek, Wine Bar",No
+Grill,Dumplings
+"Grill, Diner",Irish Pub
+"Grill, Indian",Steak
+"Grill, Middle Eastern",No
+Hawaiian,No
+"Hawaiian, Japanese",No
+"Hawaiian, Seafood",No
+Healthy,No
+"Healthy, American",No
+"Healthy, Cafe",fries
+"Healthy, Chinese",No
+"Healthy, International",eggs Benedict
+"Healthy, Italian",escargot
+"Healthy, Middle Eastern",ribeye
+"Healthy, Soups",No
+Indian,No
+"Indian, American",No
+"Indian, Asian",No
+"Indian, Chinese",No
+"Indian, Contemporary",No
+"Indian, Deli",No
+"Indian, Dining bars",Cuban Sandwich
+"Indian, Fast Food",bar
+"Indian, Healthy",No
+"Indian, International",No
+"Indian, Middle Eastern",No
+"Indian, Wine Bar",No
+International,No
+"International, American",No
+"International, Asian",No
+"International, British",No
+"International, Contemporary",No
+"International, Fusion",No
+"International, Healthy",No
+"International, Mediterranean",No
+"International, South American",No
+Irish,No
+"Irish, American",No
+"Irish, Bar",No
+"Irish, British",No
+"Irish, Pub",No
+Israeli,No
+"Israeli, Lebanese",No
+"Israeli, Mediterranean",No
+Italian,No
+"Italian, African",No
+"Italian, American",No
+"Italian, Bar",No
+"Italian, Cafe",No
+"Italian, Caribbean",No
+"Italian, Central-Italian",No
+"Italian, Chinese",No
+"Italian, Contemporary",vegetarian
+"Italian, European",No
+"Italian, Fast Food",No
+"Italian, French",No
+"Italian, Greek",No
+"Italian, Healthy",No
+"Italian, International",No
+"Italian, Israeli",No
+"Italian, Japanese",No
+"Italian, Mediterranean",No
+"Italian, Mexican",No
+"Italian, Neapolitan",No
+"Italian, Northern-Italian",No
+"Italian, Pizza",No
+"Italian, Romagna",beer
+"Italian, Romana",No
+"Italian, Seafood",No
+"Italian, Sicilian",Octopus
+"Italian, Steakhouse",No
+"Italian, Street Food",Milano
+"Italian, Tuscan",Crab Cakes
+"Italian, Wine Bar",No
+"Jamaican, American",octopus
+Japanese,No
+"Japanese, American",No
+"Japanese, Asian",No
+"Japanese, Bar",No
+"Japanese, Barbecue",No
+"Japanese, Cafe",No
+"Japanese, Contemporary",Pizza
+"Japanese, Fast Food",French Onion Soup
+"Japanese, Grill",No
+"Japanese, Hawaiian",No
+"Japanese, Indian",No
+"Japanese, International",salad
+"Japanese, Japanese Fusion",No
+"Japanese, Kaiseki",No
+"Japanese, Latin",Crab Cakes
+"Japanese, Peruvian",Pancakes
+"Japanese, Seafood",No
+"Japanese, Soups",vegan
+"Japanese, Steakhouse",No
+"Japanese, Sushi",No
+"Japanese, Wine Bar",No
+Korean,No
+"Korean, American",No
+"Korean, Asian",No
+Latin,No
+"Latin, American",No
+"Latin, Argentinean",Asian food
+"Latin, Asian",ribeye
+"Latin, Caribbean",No
+"Latin, Central American",No
+"Latin, Colombian",No
+"Latin, Cuban",No
+"Latin, Mexican",No
+"Latin, Seafood",No
+"Latin, Spanish",No
+"Latin, Venezuelan",No
+"Lebanese, Cafe",No
+"Lebanese, Fast Food",No
+"Lebanese, Mediterranean",No
+"Lebanese, Middle Eastern",No
+Malaysian,beer
+Mediterranean,No
+"Mediterranean, Bar",No
+"Mediterranean, Deli",No
+"Mediterranean, European",No
+"Mediterranean, Greek",No
+"Mediterranean, Healthy",No
+"Mediterranean, Israeli",No
+"Mediterranean, Italian",Ethiopian
+"Mediterranean, Middle Eastern",No
+"Mediterranean, Moroccan",carbonara
+"Mediterranean, Pizza",salad
+"Mediterranean, Spanish",No
+"Mediterranean, Turkish",No
+"Mediterranean, Wine Bar",No
+Mexican,No
+"Mexican, American",No
+"Mexican, Asian",No
+"Mexican, Bar",No
+"Mexican, Barbecue",No
+"Mexican, Caribbean",No
+"Mexican, Central American",Delicious Pizza
+"Mexican, Contemporary",No
+"Mexican, Fast Food",No
+"Mexican, Fusion",Dumplings
+"Mexican, Greek",No
+"Mexican, International",No
+"Mexican, Japanese",No
+"Mexican, Latin",No
+"Mexican, Mediterranean",Dumplings
+"Mexican, Moroccan",No
+"Mexican, Peruvian",No
+"Mexican, Seafood",No
+"Mexican, South American",No
+"Mexican, Southwestern",No
+"Mexican, Spanish",No
+"Mexican, Steakhouse",No
+"Mexican, Street Food",Garden
+Middle Eastern,No
+"Middle Eastern, Afghan",No
+"Middle Eastern, American",No
+"Middle Eastern, Bar",No
+"Middle Eastern, Fast Food",No
+"Middle Eastern, Israeli",No
+"Middle Eastern, Lebanese",No
+"Middle Eastern, Mediterranean",No
+"Middle Eastern, Pakistani",No
+"Middle Eastern, Persian",No
+"Moroccan, Mediterranean",No
+"Moroccan, Middle Eastern",steak
+"Moroccan, Spanish",No
+"Pakistani, Indian",pork
+"Pakistani, Middle Eastern",No
+"Persian, Mediterranean",No
+"Peruvian, European",No
+"Peruvian, Japanese Fusion",No
+"Peruvian, Latin",No
+"Peruvian, Seafood",No
+"Peruvian, South American",No
+Pizza,No
+"Pizza, American",No
+"Pizza, Bar",No
+"Pizza, Cafe",No
+"Pizza, Cajun & Creole",pizza
+"Pizza, Deli",No
+"Pizza, Fast Food",No
+"Pizza, Gastropub",No
+"Pizza, International",No
+"Pizza, Italian",No
+"Pizza, Mediterranean",No
+"Pizza, Neapolitan",crispy duck
+"Polish, European",No
+Portuguese,No
+Pub,No
+"Pub, American",No
+"Pub, Bar",No
+"Pub, Gastropub",No
+Puerto Rican,No
+"Quick Bites, Italian",Bolognese
+Russian,No
+"Russian, Eastern European",bar
+Seafood,No
+"Seafood, African",No
+"Seafood, American",No
+"Seafood, Asian",No
+"Seafood, Bar",No
+"Seafood, Cajun & Creole",No
+"Seafood, Fast Food",No
+"Seafood, Grill",dumplings
+"Seafood, Hawaiian",No
+"Seafood, Healthy",bar
+"Seafood, International",No
+"Seafood, Italian",scallops
+"Seafood, Mediterranean",No
+"Seafood, Peruvian",No
+"Seafood, Soups",No
+"Seafood, Spanish",vegetarian
+"Seafood, Street Food",No
+"Seafood, Sushi",Italian restaurant
+Soups,No
+"Soups, Asian",No
+"Soups, Cafe",No
+"Soups, Deli",bar
+"Soups, Eastern European",Tuna
+"Soups, Polish",No
+"South American, Central American",No
+"South American, Colombian",French Onion Soup
+"South American, Ecuadorean",No
+Spanish,No
+"Spanish, Catalan",foie gras
+"Spanish, Contemporary",French Onion Soup
+"Spanish, French",No
+"Spanish, Latin",No
+"Spanish, Mediterranean",No
+"Spanish, Pub",No
+"Spanish, South American",No
+"Spanish, Wine Bar",No
+"Sri Lankan, Asian",No
+Steakhouse,No
+"Steakhouse, American",No
+"Steakhouse, Asian",salad
+"Steakhouse, Bar",No
+"Steakhouse, Brazilian",No
+"Steakhouse, French",No
+"Steakhouse, International",Steak
+"Steakhouse, Italian",No
+"Steakhouse, Japanese",Pasta
+"Steakhouse, Latin",No
+"Steakhouse, Seafood",No
+"Steakhouse, Sushi",steak
+Street Food,fries
+"Street Food, Indian",pasta
+Sushi,No
+"Sushi, Asian",No
+"Sushi, Japanese",No
+"Sushi, Spanish",tuna
+"Swedish, Scandinavian",No
+"Swiss, Cafe",No
+"Swiss, European",No
+"Taiwanese, Chinese",No
+Thai,No
+"Thai, Asian",No
+"Thai, Singaporean",Asian food
+"Thai, Street Food",No
+"Thai, Sushi",beef
+"Tibetan, Nepali",No
+Turkish,No
+"Turkish, Grill",No
+"Turkish, International",No
+"Turkish, Mediterranean",seafood paella
+"Turkish, Middle Eastern",No
+"Tuscan, Central-Italian",No
+Uzbek,No
+"Venezuelan, Latin",No
+"Venezuelan, South American",No
+"Venezuelan, Spanish",goulash
+Vietnamese,No
+"Vietnamese, Asian",No
+Wine Bar,No
+"Wine Bar, American",No
+"Wine Bar, Bar",No
+"Wine Bar, Cafe",No
+"Wine Bar, Contemporary",No
+"Wine Bar, French",No
+"Wine Bar, Italian",No
+"Wine Bar, Mediterranean",No
+"Wine Bar, Pub",No
+"Wine Bar, Seafood",No
+"Wine Bar, Spanish",Garden
+"Wine Bar, Steakhouse",Wine Bar
